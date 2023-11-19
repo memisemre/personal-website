@@ -1,7 +1,8 @@
+import Ubuntu from "ubuntu";
 const App = () => {
   return (
     <>
-      <h1>Welcome to Website</h1>
+      <Ubuntu />
     </>
   );
 };

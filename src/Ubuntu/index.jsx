@@ -1,7 +1,11 @@
+import classes from "ubuntu/index.module.scss";
+import LockScreen from "ubuntuPages/lockScreen";
 const Ubuntu = () => {
   return (
     <>
-      <h1>Ubuntu Page</h1>
+      <main className={classes.ubuntu}>
+        <LockScreen />
+      </main>
     </>
   );
 };
