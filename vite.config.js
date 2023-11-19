@@ -9,6 +9,8 @@ export default defineConfig({
     alias: {
       src: "/src",
       components: "/src/components",
+      ubuntuAssets: "/src/assets/ubuntu",
+      siteAssets: "/src/assets/website",
     },
   },
 });
