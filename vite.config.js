@@ -7,10 +7,21 @@ export default defineConfig({
   //Paths
   resolve: {
     alias: {
+      //Global Paths
       src: "/src",
-      components: "/src/components",
+      assets: "/src/assets",
+
+      //Ubuntu Paths
+      ubuntu: "/src/Ubuntu",
+      ubuntuComps: "/src/Ubuntu/components",
+      ubuntuPages: "/src/Ubuntu/pages",
       ubuntuAssets: "/src/assets/ubuntu",
-      siteAssets: "/src/assets/website",
+
+      //Website Paths
+      website: "/src/Website",
+      websiteComps: "/src/Website/components",
+      websitePages: "/src/Website/pages",
+      websiteAssets: "/src/assets/website",
     },
   },
 });
