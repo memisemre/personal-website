@@ -9,7 +9,7 @@ export default defineConfig({
     alias: {
       //Global Paths
       src: "/src",
-      assets: "/src/assets",
+      assets: "/src/assets/global",
 
       //Ubuntu Paths
       ubuntu: "/src/Ubuntu",
